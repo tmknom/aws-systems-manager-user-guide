@@ -30,8 +30,8 @@ Follow these steps to use the AWS CLI and the [update\-document](https://docs.aw
        "s3BucketName": "MyBucketName",
        "s3KeyPrefix": "MyBucketPrefix",
        "s3EncryptionEnabled": true,
-       "cloudWatchLogGroupName": "MyLogGroupName,
-       "cloudWatchEncryptionEnabled": true"
+       "cloudWatchLogGroupName": "MyLogGroupName",
+       "cloudWatchEncryptionEnabled": true
      }
    }
    ```
@@ -74,3 +74,4 @@ Be sure to include `file://` before the file name\. It is required in this comma
        }
    }
    ```
+   
